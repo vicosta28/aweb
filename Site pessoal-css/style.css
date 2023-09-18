@@ -73,6 +73,7 @@ a:hover{
     font-family: 'Courier New';
     font-size: 17px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .container3{
@@ -281,9 +282,13 @@ h2{
 
 
 @media screen and (max-width: 768px) {
+    .menu {
+        padding: 10px;
+    }
     body {
         font-size: 16px; /* Tamanho da fonte menor para telas menores */
         margin: 0;
+        width: 100%;
     }
 
     .main{
@@ -296,6 +301,7 @@ h2{
 
     .omg {
         height: auto; 
+        background-size: cover;
     }
 
     .hero {
@@ -334,7 +340,7 @@ h2{
     }
 
     table {
-        width: 100%; 
+        width: 80%; 
     }
 
     td {
