@@ -24,6 +24,10 @@
     
 }
 
+.stories{
+    display: flex;
+    width: 100%;
+}
 
 h3{
     color: white;
@@ -52,8 +56,8 @@ i{
     color: white;
 }
 .eu{
-    width: 62px;
-    border-radius: 40px;
+    width: 70px;
+    border-radius: 70px;
     border: 1px solid rgb(57, 197, 57);
     margin-left: 10px;
     margin-top: 65px;
@@ -124,8 +128,8 @@ h4{
 }
 
 .destaque{
-    width: 50px;
-    border-radius: 30px;
+    width: 70px;
+    border-radius: 50px;
     border: 1px solid rgb(124, 119, 119);
     margin-left: 10px;
     margin-top: 15px;
