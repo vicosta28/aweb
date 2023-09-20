@@ -13,7 +13,7 @@ html{
     overflow-x: hidden;
 }
 .omg{
-    background-image: linear-gradient( to right, #56918b 20%, rgb(137, 211, 188), rgb(78, 139, 129),  #56918b); 
+    background-image: linear-gradient( to right, #1F4642,#70b197, #1F4642); 
     width: 100%;
     height: 100vh;
     margin: auto;
@@ -67,7 +67,7 @@ a:hover{
 }
 
 .menu{
-    background-image: linear-gradient( to right, #56918b 20%, rgb(137, 211, 188), rgb(78, 139, 129),  #56918b); 
+    background-image: linear-gradient( to right, #1F4642,#70b197, #1F4642); 
     display: flex;
     padding: 25px;
     width: 100%;
@@ -77,6 +77,7 @@ a:hover{
     font-size: 17px;
     justify-content: space-around;
     margin: auto;
+    z-index: 999;
 }
 
 .container3{
@@ -136,7 +137,7 @@ p{
 h2{
     margin-top: 20px;
     margin-left: 20px;
-    color: white;
+    color: #E9F2F1;
 }
 
 table{
@@ -295,7 +296,7 @@ h2{
 
 
 .habil{
-    color: #56918b;
+    color: #70b197;
     text-align: center;
     height: 100px;
     padding: 20px;
