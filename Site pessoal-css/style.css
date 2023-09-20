@@ -10,6 +10,7 @@ body{
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 .omg{
     background-image: linear-gradient( to right, #56918b 20%, rgb(137, 211, 188), rgb(78, 139, 129),  #56918b); 
@@ -174,6 +175,7 @@ tr{
 
 #habilidades{
     margin-top: 50px;
+    text-align: center;
     color: #70b197;
 }
 
@@ -184,6 +186,7 @@ tr{
 
 #educ{
     color: #70b197;
+    text-align: center;
 }
 
 footer{
@@ -293,7 +296,7 @@ h2{
 
 .habil{
     color: #56918b;
-    width: 370px;
+    text-align: center;
     height: 100px;
     padding: 20px;
     margin-top: 10px;
@@ -323,8 +326,13 @@ h2{
         font-size: 14px; 
     }
 
+    #cor{
+        font-size: 11px;
+        margin: auto;
+    }
+
     .omg {
-        height: 100vh; 
+        height: 90vh; 
     }
 
     .hero {
