@@ -8,7 +8,9 @@ body{
     margin: 0;
     font-size: 18px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .omg{
     background-image: linear-gradient( to right, #56918b 20%, rgb(137, 211, 188), rgb(78, 139, 129),  #56918b); 
     width: 100%;
@@ -73,6 +75,7 @@ a:hover{
     font-family: 'Courier New';
     font-size: 17px;
     justify-content: space-around;
+    margin: auto;
 }
 
 .container3{
@@ -88,7 +91,6 @@ a:hover{
 #dois{
     background-image: url(midias/vivi2.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     width: 50%;
     height: 700px;
@@ -126,7 +128,6 @@ a:hover{
 }
 
 p{
-    margin-left: 20px;
     margin-top: 10px;
     font-size: 18px;
 }
@@ -144,6 +145,7 @@ table{
     margin-left: 20px;
     border: 2px solid #70b197;
     justify-items: center;
+    margin: auto;
 }
 
 
@@ -161,6 +163,12 @@ tr{
 .causo{
     height: 100px;
     width: 400px;
+    margin: auto;
+}
+
+#causos{
+    margin-left: 248px;
+    margin-bottom: 20px;
 }
 
 
@@ -215,7 +223,7 @@ i{
 
 .card{
     display: flex;
-    background-color: #E9F2F1;
+    background-color: #1f4642;
     width: 300px;
     height: 400px;
     align-items: center;
@@ -223,7 +231,7 @@ i{
     text-align: center;
     margin-bottom: 30px;
     box-shadow: 7px 7px 10px 0 rgb(120, 112, 112);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #ft1{
@@ -268,7 +276,7 @@ i{
 
 h2{
     color: #70b197;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 290px;
 }
 
@@ -303,6 +311,10 @@ h2{
         margin: 0;
     }
 
+    html{
+        overflow-x: hidden;
+    }
+
     .main{
         padding: 10px;
     }
@@ -312,7 +324,7 @@ h2{
     }
 
     .omg {
-        height: auto; 
+        height: 100vh; 
     }
 
     .hero {
@@ -333,6 +345,7 @@ h2{
     .container2{
         grid-template-columns: repeat(2, 1fr);
         display: block;
+        width: 40%;
     }
 
     .container3 {
@@ -351,7 +364,8 @@ h2{
     }
 
     table {
-        width: 100%; 
+        width: 90%; 
+        margin-top: 10px;
     }
 
     td {
@@ -360,6 +374,21 @@ h2{
 
     .causo {
         width: 100%; 
+    }
+
+    #causos{
+        margin: auto ;
+    }
+
+    #habilidades{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #habil{
+        width: 90%;
+        margin-right: 30px;
     }
 
     footer {
