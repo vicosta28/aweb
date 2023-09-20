@@ -328,11 +328,12 @@ h2{
 
     #cor{
         font-size: 11px;
+        max-width: 100%;
         margin: auto;
     }
 
     .omg {
-        height: 90vh; 
+        height: 100vh; 
     }
 
     .hero {
