@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #590212;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    background-color: #590212;
+    position: fixed;
+    z-index: 999;
+}
+
+a{
+    margin-top: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 20px;
+}
+
+a:hover{
+    color:#BFA084;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 20px;
+    color: #590212;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #590212;
+}
+
+h4{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+h3{
+    margin-top: 80px;
+    color: #590212;
+}
+
+img {
+    width: 60%;
+    max-width: 100%;
+    margin-top: 170px;
+    margin-left: 110px;
+    border-radius: 40px;
+}
+
+.flower{
+    width: 110px;
+}
+
+
+.container{
+    display: flex;
+}
+
+.hero1{
+    width: 50%;
+    height: 100vh;
+    background-color: #590212;
+}
+
+.hero2{
+    width: 50%;
+    height: 100vh;
+    background-color: #590212;
+
+}
+
+h1{
+    width: 400px;
+    z-index: 1;
+    margin-left: 90px;
+    margin-top: 140px;
+    font-size: 90px;
+    color: aliceblue;
+}
+
+.logo{
+    color: aliceblue;
+    font-style: italic;
+    font-family: Times, 'Times New Roman', serif;
+
+}
+
+strong{
+    color: aliceblue;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.container2{
+    display: flex;
+}
+
+.sobre2{
+    width: 40%;
+    background-image: url(imgs/map-5653498_1280\ \(1\).jpg);
+    background-size: cover;
+    height: 600px;;
+}
+
+.sobre{
+    top: 0;
+    width: 60%;
+    height: 600px;
+    background-color: #BFA084;
+}
+
+#sobremim{
+    margin-left: 20px;
+}
+
+.ai{
+    margin-left: 0;
+    width: 100%;
+    background-color: #590212;
+    color: aliceblue;
+}
+
+
+.tabela{
+    width: 100%;
+    height:100vh;
+    background-color: #BFA084;
+}
+
+table{
+    border: 2px solid #BFA084;
+    background-color: aliceblue;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+th{
+    border: 1px solid #BFA084;
+}
+
+
+.container3{
+    background-color: #BFA084;
+    width: 100%;
+    height: 50vh;
+
+}
+
+#edu{
+    margin: auto;
+}
+
+footer{
+    background-color: #590212;
+    width: 100%;
+    height: 40px;
+}
+
+.cor{
+    color: aliceblue;
+}
+
+#ctt{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+  
+footer {
+      height: 70px;
+      width: 100%;
+      margin: auto;
+      font-size: 13px;
+    }
+
+.cor{
+     font-size: 16px;
+}
+
+#ctt{
+    font-size: 14px;
+    margin: auto;
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #590212;
+}
+
+.card{
+    background-image: linear-gradient(#BFA0, #9b2929);
+    overflow: hidden;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.card .imagem{
+    background-color: #BFA084;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .imagem span{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.card .content{
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    transform: translateY(30px);
+}
+
+.card:hover .content{
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0);
+}
+
+.card .content h3{
+    margin-bottom: 0;
+    color: aliceblue;
+}
+
+.card .content .frase{
+    font-size: 20px;
+    font-weight: 100;
+    opacity: 0.7;
+
+}
+
+.card .arrow{
+    padding-bottom:15px;
+    font-size: 30px;
+}
+
+.div1{
+    font-size: 40px;
+    margin-bottom: 300px;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; 
+    }
+
+    .menu {
+        height: auto;
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .menu a {
+        margin-top: 10px; 
+    }
+
+    img{
+        display: none;
+    }
+
+    h1{
+        font-size: 11px;
+        margin: auto;
+    }
+}
